@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Clubhouse — change this to your team</title>
+  <title>Gilmour Academy Girls Soccer</title>
   <meta name="description" content="One sentence about this team. Search results show it; write it." />
 
   <!-- What a link preview shows in a chat. Once you publish, add
          <meta property="og:image" content="https://you.github.io/your-repo/img/stadium-night.jpg" /> -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Clubhouse — change this to your team" />
+  <meta property="og:title" content="Gilmour Academy Girls Soccer" />
   <meta property="og:description" content="One sentence about this team. Search results show it; write it." />
 
   <!-- Tailwind and daisyUI, no build step. Open this file with Live Server.
@@ -28,6 +28,7 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
   <meta name="theme-color" content="#0f172a" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="custom.css" />
 </head>
 
 <body class="bg-base-100 text-base-content">
@@ -47,49 +48,14 @@
       <a class="flex items-center gap-3" href="index.html">
         <span
           class="grid place-items-center size-10 rounded-lg bg-primary text-primary-content font-display text-xl font-bold">C</span>
-        <span class="font-display text-xl font-bold uppercase tracking-wider">Clubhouse</span>
+        <span class="font-display text-xl font-bold uppercase tracking-wider">Gilmour Academy Girls Soccer</span>
       </a>
     </div>
     <div class="navbar-end flex-1 w-auto gap-2">
       <!-- HOMES: each home page has its own hero. Keep the one you like best
              as index.html, then delete the rest and this dropdown. -->
-      <details class="dropdown dropdown-end hidden lg:block">
-        <summary class="btn btn-ghost text-inherit text-base font-normal gap-1">Homes <svg class="size-4"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round" aria-hidden="true">
-            <path d="m6 9 6 6 6-6" />
-          </svg></summary>
-        <div
-          class="dropdown-content bg-base-100 text-base-content normal-case tracking-normal font-normal border border-base-content/10 rounded-box z-40 mt-3 w-[38rem] p-3 shadow-xl">
-          <ul class="grid grid-cols-3 gap-2">
-            <li>
-              <a class="block rounded-box p-2 hover:bg-base-200 focus-visible:bg-base-200" href="index.html">
-                <img class="aspect-video w-full rounded-field object-cover" src="img/stadium-night.jpg" width="1920"
-                  height="1080" loading="lazy" alt="" />
-                <span class="mt-2 block font-semibold">Home 1</span>
-                <span class="block text-sm text-base-content/70">A film of the stadium behind the next match</span>
-              </a>
-            </li>
-            <li>
-              <a class="block rounded-box p-2 hover:bg-base-200 focus-visible:bg-base-200" href="index-2.html"
-                aria-current="page">
-                <img class="aspect-video w-full rounded-field object-cover" src="img/crowd-wide.jpg" width="1920"
-                  height="1080" loading="lazy" alt="" />
-                <span class="mt-2 block font-semibold">Home 2</span>
-                <span class="block text-sm text-base-content/70">The nav over three photos that turn</span>
-              </a>
-            </li>
-            <li>
-              <a class="block rounded-box p-2 hover:bg-base-200 focus-visible:bg-base-200" href="index-3.html">
-                <img class="aspect-video w-full rounded-field object-cover" src="img/action-shot.jpg" width="1440"
-                  height="788" loading="lazy" alt="" />
-                <span class="mt-2 block font-semibold">Home 3</span>
-                <span class="block text-sm text-base-content/70">An action photo on a slant beside the last score</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </details>
+      +
+
       <ul class="menu menu-horizontal hidden lg:flex gap-1 text-base">
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="roster.html">Roster</a></li>
@@ -136,7 +102,7 @@
       aria-roledescription="carousel" aria-label="Highlights">
       <div class="carousel-item relative w-full items-center" role="group" aria-roledescription="slide"
         aria-label="1 of 3">
-        <img class="absolute inset-0 size-full object-cover" src="img/stadium-night.jpg" width="1920" height="1080"
+        <img class="absolute inset-0 size-full object-cover" src="img/teamphoto1.jpg" 1920" height="1080"
           fetchpriority="high" alt="The stadium at night under floodlights" />
         <div class="slide-scrim"></div>
         <div class="relative w-full max-w-6xl mx-auto px-6 pt-24 pb-28">
@@ -144,8 +110,8 @@
             <p
               class="inline-flex items-center gap-2 rounded-full bg-black/50 px-4 py-1.5 text-sm font-semibold tracking-wide mb-8">
               20XX season</p>
-            <h1 class="font-display text-6xl md:text-9xl font-bold uppercase leading-[0.9] tracking-tight mb-6">Your
-              team<br />name here</h1>
+            <h1 class="font-display text-6xl md:text-9xl font-bold uppercase leading-[0.9] tracking-tight mb-6">Gilmour
+              Academy Girls Soccer</h1>
             <p class="text-xl md:text-2xl mb-10 max-w-2xl">One sentence. The sport, the league, the town.</p>
             <div class="flex flex-col sm:flex-row gap-3 ">
               <a class="btn btn-lg btn-primary" href="schedule.html#tickets">Get tickets</a>
@@ -157,7 +123,7 @@
       </div>
       <div class="carousel-item relative w-full items-center" role="group" aria-roledescription="slide"
         aria-label="2 of 3">
-        <img class="absolute inset-0 size-full object-cover" src="img/crowd-wide.jpg" width="1920" height="1080"
+        <img class="absolute inset-0 size-full object-cover" src="img/srdayteamphoto.png" 1920" height="1080"
           loading="lazy" alt="A packed home stand watching a night game" />
         <div class="slide-scrim"></div>
         <div class="relative w-full max-w-6xl mx-auto px-6 pt-24 pb-28">
@@ -176,8 +142,8 @@
       </div>
       <div class="carousel-item relative w-full items-center" role="group" aria-roledescription="slide"
         aria-label="3 of 3">
-        <img class="absolute inset-0 size-full object-cover" src="img/floodlights-wide.jpg" width="1920" height="1080"
-          loading="lazy" alt="Floodlights over the pitch before kickoff" />
+        <img class="absolute inset-0 size-full object-cover" src="img/wideview.png" 1920" height="1080" loading="lazy"
+          alt="Floodlights over the pitch before kickoff" />
         <div class="slide-scrim"></div>
         <div class="relative w-full max-w-6xl mx-auto px-6 pt-24 pb-28">
           <div class="max-w-4xl">
