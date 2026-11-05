@@ -1,9 +1,91 @@
-data-theme='night' {
+/* =========================================
+   GILMOUR ACADEMY GIRLS SOCCER THEME
+   Light Blue + Royal Blue + Gray
+========================================= */
+
+[data-theme="night"] {
+  color-scheme: light;
+
+  /* ORIGINAL GILMOUR COLORS */
   --color-primary: #0D47A1;
-  --color-acccent: #2196F3;
-  --color-pink: #F26CA7;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #2196F3;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #F26CA7;
+  --color-accent-content: #ffffff;
+
   --color-coolsky: #64B5F6;
   --color-gray: #B0BEC5;
-  --color-skyblue: #90CAF9;
   --color-icyblue: #BBDEFB;
+
+  /* BACKGROUNDS */
+  --color-base-100: #BBDEFB;
+  --color-base-200: #B0BEC5;
+  --color-base-300: #64B5F6;
+
+  /* TEXT */
+  --color-base-content: #0D47A1;
+
+  /* NEUTRAL */
+  --color-neutral: #B0BEC5;
+  --color-neutral-content: #0D47A1;
+
+  /* STATUS COLORS */
+  --color-info: #2196F3;
+  --color-success: #22C55E;
+  --color-warning: #FACC15;
+  --color-error: #EF4444;
+}
+
+/* CUSTOM COLOR CLASSES */
+
+.text-coolsky {
+  color: #64B5F6;
+}
+
+.text-icyblue {
+  color: #BBDEFB;
+}
+
+.text-gray {
+  color: #B0BEC5;
+}
+
+.text-royal {
+  color: #0D47A1;
+}
+
+.bg-coolsky {
+  background-color: #64B5F6;
+}
+
+.bg-icyblue {
+  background-color: #BBDEFB;
+}
+
+.bg-gray {
+  background-color: #B0BEC5;
+}
+
+/* Main website font */
+body {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/* Headings */
+.font-display {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+}
+
+/* Optional italic headings */
+.font-display-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
 }
